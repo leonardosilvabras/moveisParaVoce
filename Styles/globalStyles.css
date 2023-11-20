@@ -19,6 +19,8 @@ body h1 {
   font-family: "Inter", sans-serif;
   font-size: 3.063rem;
   line-height: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 body h1 span {
   font-size: 3.063rem;
@@ -33,10 +35,13 @@ body span {
   color: #ff9900;
   font-size: 0.875rem;
 }
-body a {
+body #footer a {
   text-decoration: none;
   text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
   line-height: 1.75rem;
+}
+body #footer a + a {
+  margin-left: 1.75rem;
 }
 body #content {
   display: flex;
@@ -44,7 +49,10 @@ body #content {
   justify-content: space-around;
   align-items: center;
   width: 37rem;
-  height: 36.188rem;
+  margin: 0rem auto 4.5rem;
+}
+body #content #hero img {
+  margin-bottom: 4.5rem;
 }
 body #balls {
   position: fixed;
