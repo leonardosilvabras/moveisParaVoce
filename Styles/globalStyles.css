@@ -43,6 +43,12 @@ body #footer a {
 body #footer a + a {
   margin-left: 1.75rem;
 }
+body #footer #line {
+  width: 35.5rem;
+  height: 0rem;
+  margin: auto;
+  border: 1px solid #eceff2;
+}
 body #content {
   display: flex;
   flex-flow: column nowrap;

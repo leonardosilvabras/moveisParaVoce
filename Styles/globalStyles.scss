@@ -49,6 +49,13 @@ body {
     a + a {
       margin-left: 1.75rem;
     }
+
+    #line {
+      width: 35.5rem;
+      height: 0rem;
+      margin: auto;
+      border: 1px solid #eceff2;
+    }
   }
 
   #content {
